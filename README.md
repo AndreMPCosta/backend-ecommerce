@@ -20,7 +20,7 @@ pip install pipenv
 pipenv install
 ```
 
-**Change your MongoDB credentials and the API Keys (Stripe, MailJet for example) and run:**
+**Change the MongoDB credentials and the API Keys (Stripe, MailJet for example) to yours and run:**
 
 ```
 pipenv run python app.py
