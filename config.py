@@ -20,7 +20,7 @@ from_email = 'random_email@awesomedomain.com'
 current_language = 'pt'
 
 # Payment
-IBAN = 'PT 0050 2442 2332 2234 4344'
+IBAN = 'PT 0050 XXXX XXXX XXXX XXXX'
 
 sample_logger = {
     "version": 1,
