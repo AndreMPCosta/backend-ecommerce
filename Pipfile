@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+pydantic = "*"
+aiofiles = "*"
+mongoengine = "*"
+marshmallow-mongoengine = "*"
+marshmallow = "*"
+blinker = "*"
+six = "*"
+python-multipart = "*"
+pillow = "*"
+passlib = "*"
+python-jose = "*"
+bcrypt = "*"
+stripe = "*"
+xmltodict = "*"
+untangle = "*"
+mailjet-rest = "*"
+jinja2 = "*"
+weasyprint = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

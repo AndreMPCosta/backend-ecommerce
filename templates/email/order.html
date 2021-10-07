@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html style="-webkit-text-size-adjust: none;">
+<head>
+    <meta name="x-apple-disable-message-reformatting">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+        @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900);
+
+        body {
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+            background: #ffffff;
+        }
+
+        * {
+            -webkit-text-size-adjust: none;
+        }
+
+        .ExternalClass * {
+            line-height: 100%;
+        }
+
+        .container {
+            width: 100% !important;
+            min-width: 100% !important;
+            height: auto !important;
+        }
+
+        table {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        td {
+            font-family: 'Open Sans', Helvetica, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        td {
+            mso-line-height-rule: exactly;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        .opensans {
+            font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 700;
+        }
+
+        .subhead {
+            font-family: Arial black, 'Open Sans', Calibri, Arial, sans-serif;
+            font-weight: 700;
+        }
+
+        @media screen and (max-width: 480px) {
+            div,
+            span {
+                padding: 0;
+                margin: 0;
+            }
+
+            body {
+                width: 100%;
+                min-width: 100%;
+                position: relative;
+                top: 0;
+                left: 0;
+                right: 0;
+                margin: 0;
+                padding: 0;
+            }
+
+            table[class=wrapper],
+            div[class=wrapper] {
+                width: 100% !important;
+                max-width: 100% !important;
+                border: none;
+            }
+
+            table[class=wrapperInset],
+            div[class=wrapperInset] {
+                width: 90% !important;
+                max-width: 90% !important;
+                margin-left: 5% !important;
+                margin-right: 5%;
+                height: auto !important;
+            }
+
+            table[class=hide] {
+                display: none;
+                height: 0;
+            }
+
+            img[class=hide],
+            td[class=hide] {
+                width: 0 !important;
+                display: none !important;
+            }
+
+            br[class=hide] {
+                width: 0px !important;
+                height: 0px !important;
+                display: none !important;
+            }
+
+            td[class=mobCenter] {
+                text-align: center;
+                padding-left: 12px !important;
+                padding-right: 12px !important;
+            }
+
+            td[class=shiftLeft] {
+                text-align: left !important;
+            }
+
+            td[class=top20] {
+                padding-top: 20px !important;
+            }
+
+            img[class=scaleImg] {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            td[class=smcell] {
+                display: table-cell !important;
+                width: 100% !important;
+                height: auto !important;
+                max-height: inherit !important;
+                overflow: visible !important;
+                float: none !important;
+            }
+
+            td[class=smcell] img {
+                width: 100%;
+                display: inline !important;
+                height: auto;
+            }
+
+            td[class=background] {
+                background-color: #ffffff !important;
+            }
+
+            td[class=topNavLogo] {
+                display: inline !important;
+                width: 100% !important;
+                padding-top: 20px !important;
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+
+            td[class=topNav] {
+                display: inline !important;
+                width: 100% !important;
+                padding-left: 25px !important;
+                padding-right: 38px !important;
+                padding-top: 0px;
+            }
+
+            td[class=toplogo] {
+                padding-top: 0px !important;
+            }
+
+            td[class=TopLogoImg] {
+                padding-bottom: 10px !important;
+            }
+
+            td[id=mod3bg] {
+                width: 100% !important;
+                background-position: center !important;
+                vertical-align: middle !important;
+            }
+
+            td[id=mod3hl] {
+                padding-top: 0 !important;
+            }
+
+            td[id=mod5hl] {
+                font-size: 40px !important;
+            }
+
+            table[class=mod7tbl] {
+                width: 48% !important;
+                height: auto !important;
+                display: inline-block !important;
+                margin: 0 2px 0 2px !important;
+            }
+
+            td[class=mod15td] {
+                width: 30% !important;
+            }
+
+            img[class=mod15img] {
+                width: 80% !important;
+                height: auto !important;
+            }
+
+            strong[class=headline] {
+                font-size: 23px !important;
+            }
+
+            td[class=productTitle] {
+                font-size: 24px !important;
+                padding-bottom: 0px !important;
+                text-align: center !important;
+            }
+
+            td[class=triButton] {
+                width: 70% !important;
+            }
+
+            td[class=bodyCopy] {
+                padding: 24px 20px 0 20px !important;
+            }
+
+            .padding-10-m {
+                padding-top: 10px !important;
+            }
+
+            .padding-15-m {
+                padding-top: 15px !important;
+            }
+        }
+    </style>
+</head>
+<body style="-webkit-text-size-adjust: none; width: 100%; margin-right: auto; margin-left: auto; background: #ffffff;">
+<div ems:preheader
+     style="-webkit-text-size-adjust: none; font-size: 1px; color: #333333; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; display: none!important;">
+    We'll let you know when your gear is on the way.
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5bca650ea448239913000002"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td width="172" height="50"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding-top: 8px; padding-bottom: 8px;"
+                        align="center" class="TopLogoImg">
+                        <a href="https://mangalibe.com"
+                           title style="-webkit-text-size-adjust: none;" target="_blank">
+                            <img style="-webkit-text-size-adjust: none; vertical-align: bottom; display: inline;"
+                                 vspace="0px" border="0" hspace="0" width="150" height="150" alt="Mangalibe"
+                                 src="https://backend.mangalibe.com/static/assets/logo.png">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5e2fbf413b5a936599000001"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td e-editable="csBody" height="20" align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;"></td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5bef5c40191110957b000001"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0px 0px 0px 0px; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td e-editable="heroHeader" class="headlineCopy" align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #191919; font-size: 28px; line-height: 90%; padding: 5px 20px 5px 20px; text-transform: uppercase; font-weight: 900;">
+                        {{translations.get('thanks')}}, {{user.first_name}} {{user.last_name}}!
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5d923c3e05cdd2c21d000001"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td e-editable="csBody" height="20" align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;"></td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5bef5c77191110957b000002"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td e-editable="bodyCopy" align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #191919; font-size: 18px; line-height: 160%; padding: 5px 20px 5px 20px; font-weight: 300;">
+                        {{translations.get('line_1')}}
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5e4dd745cd6dd66773000004"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td e-editable="csBody" height="20" align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;"></td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5e4dd723cd6dd66773000003"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; background-color: #FFFFFF;"
+                        bgcolor="#FFFFFF">
+                        <a href="https://www.instagram.com/accounts/login/?next=/chrome_industries/%3F%2524addcamptrackin%3D%26ditr_id%3D6979a3a2d042678f9e4c345bc3004792a321409d5421168d556491c15397370b%26sc_customer%3D6979a3a2d042678f9e4c345bc3004792a321409d5421168d556491c15397370b%26sc_eh%3D2ede5b720f856b191%26sc_lid%3D42280397%26sc_llid%3D47633%26sc_src%3Demail_1984%26sc_uid%3D5ylfG3qDfG%26utm_campaign%3DRTM_Transactional_Order_Confirmation%26utm_content%3DIMAGE%2Bridechrome_followchrome.png%26utm_medium%3Demail%26utm_source%3Demarsys"
+                           e-editable="heroLink"
+                           style="-webkit-text-size-adjust: none; color: #000001; text-decoration: none;"
+                           target="_blank">
+                            <img src="https://fg-email.s3-us-west-2.amazonaws.com/US/CHROME/Evergreen+Assets/Misc.+Updates/ridechrome_followchrome.png"
+                                 e-editable="heroImage" width="600" alt border="0"
+                                 style="-webkit-text-size-adjust: none; display: block;" class="scaleImg">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5bef5d3a191110957b000005"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 20px 20px 25px 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0"
+                               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <tr style="-webkit-text-size-adjust: none;">
+                                <td e-editable="heroButton" align="center" bgcolor="#cc092f"
+                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #ffffff; font-size: 14px; line-height: 100%; padding: 12px 10px 12px 10px; text-transform: uppercase; vertical-align: middle; letter-spacing: 1px;"
+                                    valign="middle">
+                                    <a e-editable="heroLink" href="{{order_url.format(domain, order.id)}}"
+                                       style="-webkit-text-size-adjust: none; color: #ffffff; text-decoration: none; padding: 12px 30px 12px 30px; outline: none;"
+                                       target="_blank" e-block-id="5bef5d3a191110957b000005" rel="noopener"><strong
+                                            style="-webkit-text-size-adjust: none;">{{translations.get('order_status')}}</strong>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5e4c234f64b6ee11a5000003"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <!--        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">-->
+        <!--            &nbsp;-->
+        <!--        </td>-->
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td e-editable="csBody" height="20" align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;"></td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    {% for item in order.items %}
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0; text-align: center;"
+            align="center">
+    <tr>
+        <table align="center" border="0" cellpadding="0" cellspacing="0"
+               width="150" class="wrapper"
+               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+            <tr style="-webkit-text-size-adjust: none;">
+                <td align="center" valign="top"
+                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; background-color: #FFFFFF;"
+                    bgcolor="#FFFFFF">
+                    <table border="0" cellpadding="0" cellspacing="0"
+                           width="150" class="wrapper"
+                           style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                        <tr style="-webkit-text-size-adjust: none;">
+                            <td align="center"
+                                style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding-bottom: 0px; padding-left: 5px;">
+                                <a href="https://{{domain}}/product/{{item.product.id}}"
+                                   e-editable="productLink"
+                                   style="-webkit-text-size-adjust: none; color: #191919; text-decoration: none;"
+                                   target="_blank">
+                                    <img src="{{get_image(item)}}"
+                                         e-editable="productImage"
+                                         alt="{{item.product.name}}"
+                                         width="130" border="0"
+                                         style="-webkit-text-size-adjust: none; display: inline; width: 130px;"
+                                         class="scaleImg">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    <td valign="top" width="188">
+    <![endif]-->
+    <tr>
+        <table align="center" border="0" cellpadding="0" cellspacing="0"
+               width="385" class="wrapper"
+               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+            <tr style="-webkit-text-size-adjust: none;">
+                <td align="center" valign="top"
+                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; background-color: #FFFFFF;"
+                    bgcolor="#FFFFFF">
+                    <table border="0" cellpadding="0" cellspacing="0"
+                           width="385" class="wrapper"
+                           style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                        <tr style="-webkit-text-size-adjust: none;">
+                            <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0px 8px 2px 8px; vertical-align: top;"
+                                valign="top">
+                                <table border="0" cellpadding="0"
+                                       cellspacing="0" width="100%"
+                                       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                    <tr style="-webkit-text-size-adjust: none;">
+                                        <td e-editable="productDetail1"
+                                            align="center"
+                                            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 16px; line-height: 100%; text-transform: uppercase; padding: 5px 0 0 10px; font-weight: 700;">
+                                            {{item.product.name}}
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr style="-webkit-text-size-adjust: none;">
+                            <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0px 8px 2px 8px; vertical-align: top;"
+                                valign="top">
+                                <table border="0" cellpadding="0"
+                                       cellspacing="0" width="100%"
+                                       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                    <tr style="-webkit-text-size-adjust: none;">
+                                        <td e-editable="productDetail2"
+                                            align="center"
+                                            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 14px; line-height: 100%; padding: 0px 0 0 10px; font-weight: 400;">
+                                            {{translations.get('quantity')}}:
+                                            {{item.quantity}}
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        {% for attribute in item.attributes %}
+                        <tr style="-webkit-text-size-adjust: none;">
+                            <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0px 8px 2px 8px; vertical-align: top;"
+                                valign="top">
+                                <table border="0" cellpadding="0"
+                                       cellspacing="0" width="100%"
+                                       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                    <tr style="-webkit-text-size-adjust: none;">
+                                        <td e-editable="productDetail3"
+                                            align="center"
+                                            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 14px; line-height: 100%; padding: 0px 0 0 10px; font-weight: 400;">
+                                            {{attribute.name}}:
+                                            {{attribute.option}}
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        {% endfor %}
+
+                        <tr style="-webkit-text-size-adjust: none;">
+                            <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0px 8px 2px 8px; vertical-align: top;"
+                                valign="top">
+                                <table border="0" cellpadding="0"
+                                       cellspacing="0" width="100%"
+                                       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                    <tr style="-webkit-text-size-adjust: none;">
+                                        <td e-editable="productDetail8"
+                                            align="center"
+                                            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 14px; line-height: 100%; padding: 0px 0px 0 10px;">
+                                            <strong style="-webkit-text-size-adjust: none;">
+                                                {{translations.get('price')}}:&nbsp;{{item.product.price}}
+                                                {{currencies.get(item.product.currency)}}</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr style="-webkit-text-size-adjust: none;">
+                            <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 7px 8px 10px 8px; vertical-align: top;"
+                                valign="top">
+                                <table border="0" cellpadding="0"
+                                       cellspacing="0" width="100%"
+                                       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                    <tr style="-webkit-text-size-adjust: none;">
+                                        <td e-editable="productDetail9"
+                                            align="center"
+                                            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 14px; line-height: 100%; padding: 0px 0px 0 10px; font-weight: 600;"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </tr>
+    </td>
+    </tr>
+    {% endfor %}
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5e4c235e64b6ee11a5000004"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 8px 0px 8px 0px; background: #FFFFFF;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 5px 0 5px 0;"
+                        align="center">
+                        <table border="0" cellpadding="0" cellspacing="0" width="90%"
+                               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <tr style="-webkit-text-size-adjust: none;">
+                                <td bgcolor="#C1C1C1"
+                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 1px; line-height: 1; height: 1px;"
+                                    height="1">&nbsp;
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5bef5dd6191110957b000008"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+            <table align="center" border="0" cellpadding="0" cellspacing="0"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; font-size: 0; text-align: center;"
+                        align="center">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <tr style="-webkit-text-size-adjust: none;">
+                                <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0; text-align: center;"
+                                    align="center">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="295"
+                                           class="wrapper"
+                                           style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <tr style="-webkit-text-size-adjust: none;">
+                                            <td align="center" valign="top"
+                                                style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="290"
+                                                       class="wrapper"
+                                                       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                    <tr style="-webkit-text-size-adjust: none;">
+                                                        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0px 10px 20px 10px;">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   width="100%"
+                                                                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="orderInfo1" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 14px; line-height: 120%; text-transform: uppercase; padding: 12px 0 2px 0; font-weight: 700;">
+                                                                        {{translations.get('order')}} #: {{order.id}}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="orderInfo2" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                        {{translations.get('order_date')}}: {{date}}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="orderInfo4" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                        {{translations.get('shipping_method')}}: CTT
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    <td valign="top" width="188">
+                                    <![endif]-->
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="275"
+                                           class="wrapper"
+                                           style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <tr style="-webkit-text-size-adjust: none;">
+                                            <td align="center" valign="top"
+                                                style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="272"
+                                                       class="wrapper"
+                                                       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                    <tr style="-webkit-text-size-adjust: none;">
+                                                        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0px 10px 20px 10px;">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   width="100%"
+                                                                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="shippingInfo1" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 14px; line-height: 120%; text-transform: uppercase; padding: 12px 0 2px 0; font-weight: 700;">
+                                                                        {{translations.get('shipping_address')}}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="shippingInfo2" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                        {{translations.get('street')}}:
+                                                                        {{order.shipping_address.get('street')}}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="shippingInfo3" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                        {{translations.get('city')}}:
+                                                                        {{order.shipping_address.get('city')}}
+                                                                        <br style="-webkit-text-size-adjust: none;">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="shippingInfo4" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                        {{translations.get('postal_code')}}:
+                                                                        {{order.shipping_address.get('postal_code')}}
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    <td valign="top" width="188">
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5e4dd6b8cd6dd66773000001"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0px 0 0px 0;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0px 17px; font-size: 0; text-align: center;"
+                        align="center">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <tr style="-webkit-text-size-adjust: none;">
+                                <td align="center" valign="top"
+                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; background-color: #FFFFFF;"
+                                    bgcolor="#FFFFFF">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="600"
+                                           class="wrapper"
+                                           style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <tr style="-webkit-text-size-adjust: none;">
+                                            <td align="center" valign="top"
+                                                style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="595"
+                                                       class="wrapper"
+                                                       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                    <tr style="-webkit-text-size-adjust: none;">
+                                                        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0px 10px 0px 20px;">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   width="100%"
+                                                                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="orderSummary1" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 14px; line-height: 120%; text-transform: uppercase; padding: 12px 0 2px 0; font-weight: 700;">
+                                                                        {{translations.get('order_summary')}}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="orderSummary2" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" width="300"
+                                                                               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                            <tr style="-webkit-text-size-adjust: none;">
+                                                                                <td e-editable="orderSummary3"
+                                                                                    align="left"
+                                                                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                                    Subtotal
+                                                                                </td>
+                                                                                <td e-editable="orderSummary4"
+                                                                                    align="right"
+                                                                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                                    {{"%.2f"|format(order.amount | float
+                                                                                    * 0.77)}}
+                                                                                    {{currencies.get(order.currency)}}
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="orderSummary5" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" width="300"
+                                                                               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                            <tr style="-webkit-text-size-adjust: none;">
+                                                                                <td e-editable="orderSummary6"
+                                                                                    align="left"
+                                                                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                                    {{translations.get('shipping')}}
+                                                                                </td>
+                                                                                <td e-editable="orderSummary7"
+                                                                                    align="right"
+                                                                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                                    {{"%.2f"|format(order.shipping_cost)}}
+                                                                                    {{currencies.get(order.currency)}}
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="orderSummary11" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" width="300"
+                                                                               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                            <tr style="-webkit-text-size-adjust: none;">
+                                                                                <td e-editable="orderSummary12"
+                                                                                    align="left"
+                                                                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                                    {{translations.get('taxes')}}%
+                                                                                </td>
+                                                                                <td e-editable="orderSummary13"
+                                                                                    align="right"
+                                                                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                                    {{"%.2f"|format((order.amount |
+                                                                                    float + order.shipping_cost | float)
+                                                                                    * 0.23)}}
+                                                                                    {{currencies.get(order.currency)}}
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="orderSummary14" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 20px 0; font-weight: 400;">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" width="300"
+                                                                               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                            <tr style="-webkit-text-size-adjust: none;">
+                                                                                <td e-editable="orderSummary15"
+                                                                                    align="left"
+                                                                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 600;">
+                                                                                    Total
+                                                                                </td>
+                                                                                <td e-editable="orderSummary16"
+                                                                                    align="right"
+                                                                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 600;">
+                                                                                    {{"%.2f"|format(order.amount +
+                                                                                    order.shipping_cost)}}
+                                                                                    {{currencies.get(order.currency)}}
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="orderSummary101" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 14px; line-height: 120%; text-transform: uppercase; padding: 20px 0 2px 0; font-weight: 700;">
+                                                                        {{translations.get('payment_details')}}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="-webkit-text-size-adjust: none;">
+                                                                    <td e-editable="orderSummary2" align="center"
+                                                                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 20px 0; font-weight: 400;">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" width="300"
+                                                                               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                                            <tr style="-webkit-text-size-adjust: none;">
+                                                                                <td e-editable="orderSummary3"
+                                                                                    align="center"
+                                                                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                                    {{translations.get('payment_method')}}:
+                                                                                    {{translations.get('payments').get(order.payment_method)}}
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr style="-webkit-text-size-adjust: none;">
+                                                                                <td e-editable="orderSummary3"
+                                                                                    align="center"
+                                                                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;">
+                                                                                    {{translations.get('amount')}}
+                                                                                    {{(order.amount +
+                                                                                    order.shipping_cost)}}
+                                                                                    {{currencies.get(order.currency)}}
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr style="-webkit-text-size-adjust: none;">
+                                                                                <td e-editable="orderSummary3"
+                                                                                    align="center"
+                                                                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #000000; font-size: 12px; line-height: 120%; text-transform: uppercase; padding: 2px 0 2px 0; font-weight: 400;"></td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5e4dd871bb7cf12a0d000003"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td e-editable="csBody" height="20" align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;"></td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5e4dd855bb7cf12a0d000002"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td e-editable="heroSubHeader" align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #191919; font-size: 22px; line-height: 120%; padding: 5px 20px 5px 20px; text-transform: uppercase; font-weight: 700;">
+                        {{translations.get('need_help')}}
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5e4dd877bb7cf12a0d000004"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 0 0 0 0; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td e-editable="bodyCopy" align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; color: #191919; font-size: 18px; line-height: 160%; padding: 5px 20px 5px 20px; font-weight: 300;">
+                        <a href="mailto:{{support_email}}"
+                           style="text-decoration: none; -webkit-text-size-adjust: none; font-size: 16px; color:gray">{{support_email}}</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+
+<!-- US Footer -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" e-block-id="5bef61ea4ce6e098d5000006"
+       style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr style="-webkit-text-size-adjust: none;">
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+        <td align="center" width="600"
+            style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 5px 0 0 0; background-color: #FFFFFF;"
+            bgcolor="#FFFFFF">
+
+            <!-- Divider -->
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+
+                <tr style="-webkit-text-size-adjust: none;">
+                    <td align="center"
+                        style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; padding: 10px 0 0 0;">
+                        <table border="0" cellpadding="0" cellspacing="0"
+                               style="-webkit-text-size-adjust: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <tr style="-webkit-text-size-adjust: none;">
+                                <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;">
+                                    <a href="https://www.instagram.com/accounts/login/?next=/chrome_industries/%3F%2524addcamptrackin%3D%26ditr_id%3D6979a3a2d042678f9e4c345bc3004792a321409d5421168d556491c15397370b%26sc_customer%3D6979a3a2d042678f9e4c345bc3004792a321409d5421168d556491c15397370b%26sc_eh%3D2ede5b720f856b191%26sc_lid%3D42280405%26sc_llid%3D47633%26sc_src%3Demail_1984%26sc_uid%3D5ylfG3qDfG%26utm_campaign%3DRTM_Transactional_Order_Confirmation%26utm_content%3DIMAGE%2Bicon-instagram.gif%26utm_medium%3Demail%26utm_source%3Demarsys"
+                                       style="-webkit-text-size-adjust: none;" target="_blank">
+                                        <img src="http://guacamole.basicagencydev.com/chrome-emails/images/email/icon-instagram.gif"
+                                             width="40" height="40" alt="Instagram" border="0"
+                                             style="-webkit-text-size-adjust: none; display: block;">
+                                    </a>
+                                </td>
+                                <td width="15"
+                                    style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;"></td>
+                                <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly;">
+                                    <a href="https://www.facebook.com/chromeindustries.hq/?utm_source=emarsys&utm_medium=email&utm_campaign=RTM_Transactional_Order_Confirmation&utm_content=IMAGE+icon-facebook.gif&ditr_id=6979a3a2d042678f9e4c345bc3004792a321409d5421168d556491c15397370b&sc_src=email1984&sc_lid=42280407&sc_uid=5ylfG3qDfG&sc_llid=47633&sc_eh=2ede5b720f856b191&sc_customer=6979a3a2d042678f9e4c345bc3004792a321409d5421168d556491c15397370b&sc_src=email_1984&$addcamptrackin"
+                                       style="-webkit-text-size-adjust: none;" target="_blank">
+                                        <img src="http://guacamole.basicagencydev.com/chrome-emails/images/email/icon-facebook.gif"
+                                             width="40" height="40" alt="Facebook" border="0"
+                                             style="-webkit-text-size-adjust: none; display: block;">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td style="-webkit-text-size-adjust: none; font-family: 'Open Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; mso-line-height-rule: exactly; font-size: 0px;">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+</body>
+</html>
