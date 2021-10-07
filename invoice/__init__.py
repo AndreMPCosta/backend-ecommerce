@@ -109,7 +109,7 @@ if __name__ == '__main__':
     from models.user import UserModel
     from models.payment import PaymentModel
 
-    user_test = UserModel.get_by_email('grlp10master@gmail.com')
+    user_test = UserModel.get_by_email('random_email@awesomedomain.com')
     order_test = user_test.orders[-1]
     payment_test = PaymentModel.get_by_custom_field('order', order_test.id)
     generate_invoice(order_test, payment_test, 'pt')
